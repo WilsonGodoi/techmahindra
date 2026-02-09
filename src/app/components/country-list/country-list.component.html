@@ -1,0 +1,7 @@
+<div *ngIf="countries$ | async as countries">
+  <ul>
+    <li *ngFor="let country of countries">
+      {{ country.name }}
+    </li>
+  </ul>
+</div>
